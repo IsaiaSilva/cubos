@@ -1,6 +1,6 @@
 ## YAML Templates ---
 
-default: -p pretty -p homolog -p firefox -p html
+default: -p pretty -p homolog -p sem_headless -p html
 pretty: --format pretty
 for_ci: --format progress
 html: --format html --out=results/report.html
